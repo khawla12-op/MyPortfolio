@@ -12,6 +12,29 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+.MyImage{
+  width: 25vw;
+  animation:floatImage 4s ease-in-out infinite;
+
+}
+@keyframes floatImage{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+/* .social-media a:hover{
+  background: #804dee;
+  color:var(--white-color);
+  box-shadow: 0 0 1rem var(-#804dee);
+   
+} */
+/* Fin test */
 
 .hash-span {
   margin-top: -100px;
@@ -34,7 +57,8 @@
 }
 
 .violet-gradient {
-  background: #804dee;
+  /* background: #804dee; */
+  background: #b6aec8; /* fallback for old browsers */
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,

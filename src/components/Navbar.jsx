@@ -44,8 +44,8 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            khaoula ALLAK &nbsp;
+            <span className='sm:block hidden'>| Data Analytics</span>
           </p>
         </Link>
 
@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
+{/* Nabar navigation */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
