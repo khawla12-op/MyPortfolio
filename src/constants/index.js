@@ -1,3 +1,4 @@
+//import hadoop from "../assets/tech/hadoop.png";
 import {
   mobile,
   backend,
@@ -24,7 +25,6 @@ import {
   tripguide,
   threejs,
 } from "../assets";
-
 export const navLinks = [
   {
     id:"home",
@@ -120,6 +120,44 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "hadoop",
+    icon: hadoop,
+  },
+ 
+  
+  
+
+  // {
+  //   name: "Spark",
+  //   icon: spark,
+  // },
+  // {
+  //   name: "HBase",
+  //   icon: hbase,
+  // },
+  // {
+  //   name: "Cassandra",
+  //   icon: cassandra,
+  // },
+  // {
+  //   name: "Angular",
+  //   icon: angular,
+  // },
+  // {
+  //   name: "React",
+  //   icon: react,
+  // },
+  // {
+  //   name: "Android",
+  //   icon: android,
+  // },
+  // {
+  //   name: "Flutter",
+  //   icon: flutter,
+  // },
+
+
 ];
 
 const experiences = [
