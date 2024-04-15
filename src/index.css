@@ -17,6 +17,9 @@
   animation:floatImage 4s ease-in-out infinite;
 
 }
+
+
+
 @keyframes floatImage{
   0%{
     transform: translateY(0);

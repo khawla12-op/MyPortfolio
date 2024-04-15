@@ -27,7 +27,9 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            // className='w-[60%] h-[60%] object-contain'
+            className='w-full h-full object-cover rounded-full'
+
           />
         </div>
       }
@@ -42,7 +44,7 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
+      {/* <ul className='mt-5 list-disc ml-5 space-y-2'>
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
@@ -50,8 +52,36 @@ const ExperienceCard = ({ experience }) => {
           >
             {point}
           </li>
+        
         ))}
-      </ul>
+      </ul> */}
+      <ul className='mt-5 list-disc ml-5 space-y-2'>
+  {experience.points.map((point, index) => {
+    if (typeof point === 'string') {
+      return (
+        <li
+          key={`experience-point-${index}`}
+          className='text-white-100 text-[14px] pl-1 tracking-wider'
+        >
+          {point}
+        </li>
+      );
+    } else {
+      return (
+        <li
+          key={`experience-point-${index}`}
+          className='text-white-100 text-[14px] pl-1 tracking-wider'
+        >
+          {point.text}{' '}
+          <a href={point.link.url} target="_blank" rel="noopener noreferrer" style={{color:'blue'}}>
+            {point.link.display}
+          </a>
+        </li>
+      );
+    }
+  })}
+</ul>
+
     </VerticalTimelineElement>
   );
 };

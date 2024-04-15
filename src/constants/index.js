@@ -1,4 +1,3 @@
-//import hadoop from "../assets/tech/hadoop.png";
 import {
   mobile,
   backend,
@@ -9,39 +8,54 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
+  post,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  gdscIcon,
+  portfolio,
+  Ninwid,
+  gannett,
+  medgpt,
+  heart,
   threejs,
+  hadoop,
+  spark,
+  flutter,
+  Angular,
+  hbase,
+  cassandra,
+  android,
+  bootstrap,
+  linux,
+  redis,
+  kubernetes,
+  neo4j,
+  scikit_learn,
+  tensorflow,
+  dashboard,
+  codsoft,
+
+
 } from "../assets";
+
 export const navLinks = [
-  {
-    id:"home",
-    title: "Home",
-  },
   {
     id: "about",
     title: "About",
   },
-  // {
-  //   id: "work",
-  //   title: "Work",
-  // },
   {
-    id:"project",
+    id: "work",
     title: "Projects",
   },
+  {
+    id: "experience",
+    title: "Experience",
+  },
+  
   {
     id: "contact",
     title: "Contact",
@@ -88,10 +102,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -121,99 +132,128 @@ const technologies = [
     icon: docker,
   },
   {
-    name: "hadoop",
+    name: "Hadoop",
     icon: hadoop,
   },
+  {
+    name: "Spark",
+    icon: spark,
+  },
+  {
+    name: "Flutter",
+    icon: flutter,
+  },
+  {
+    name: "Angular",
+    icon: Angular,
+  },
+  {
+    name: "HBase",
+    icon: hbase,
+  },
+  {
+    name: "Cassandra",
+    icon: cassandra,
+  },
+  {
+    name: "Android",
+    icon: android,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "Linux",
+    icon: linux,
+  },
+  {
+    name: "Redis",
+    icon: redis,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "Neo4j",
+    icon: neo4j,
+  },
+  {
+    name: "Scikit Learn",
+    icon: scikit_learn,
+  },
+  {
+    name: "Tensorflow",
+    icon: tensorflow,
+  },
+  
  
   
-  
-
-  // {
-  //   name: "Spark",
-  //   icon: spark,
-  // },
-  // {
-  //   name: "HBase",
-  //   icon: hbase,
-  // },
-  // {
-  //   name: "Cassandra",
-  //   icon: cassandra,
-  // },
-  // {
-  //   name: "Angular",
-  //   icon: angular,
-  // },
-  // {
-  //   name: "React",
-  //   icon: react,
-  // },
-  // {
-  //   name: "Android",
-  //   icon: android,
-  // },
-  // {
-  //   name: "Flutter",
-  //   icon: flutter,
-  // },
-
 
 ];
-
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "GDSC Core team member",
+    company_name: "Google Developer Student Clubs - ENSET Mohammedia",
+    icon: gdscIcon,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2022 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a core team member in the GDSC Club, my role primarily involved serving as the content creator for our talks, speeches, and social media posts.I took charge of conceptualizing, crafting, and delivering engaging content that resonated with our audience.",
+      " Additionally, I collaborated closely with other team members, supporting them in their respective roles and contributing to brainstorming sessions to generate innovative ideas and strategies. "
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Web Development Intern",
+    company_name: "Ninwid Technologie",
+    icon: Ninwid,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+"I had the opportunity to design and develop a complete web application as well as a website aimed at revolutionizing client management and advertisement delivery.",
+
+"The application I created significantly simplifies the process of client management by automating many essential tasks, thereby improving their efficiency in their daily work",
     ],
   },
+
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "GDSC Lead",
+    company_name: "Google Developer Student Clubs - ENSET Mohammedia",
+    icon: gdscIcon,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Septembre 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "In my position as a lead, I valued the opportunity to learn from my core team members. It served as an excellent opportunity for exchanging ideas and collaborating through workshops and informational sessions focused on various technical topics. This collaborative environment not only enriched my own knowledge but also fostered a culture of continuous learning and growth within the team.",
+      {
+        text: "To further extend the reach of our achievements, I invite you to explore our accomplishments showcased on the website:",
+        link: {
+          url: "https://gdsc.community.dev/enset-mohammedia/",
+          display: "GDSC ENSET Mohammedia"
+        }
+      }
+    ]
   },
+
+  
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Machine Learning Intern",
+    company_name: "CodSoft",
+    icon: codsoft,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     " I had the privilege of being selected for the Machine Learning virtual internship position at CodSoft, where I embarked on a journey of learning and growth. ",
+
+      "Throughout the internship, my primary focus was on acquiring new skills and gaining practical knowledge in the field of Machine Learning. I was entrusted with various tasks and projects, each designed to challenge me and enhance my understanding of ML concepts and techniques."
     ],
   },
 ];
+
+
+
+
+
 
 const testimonials = [
   {
@@ -244,68 +284,257 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gannett Economies Group application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A platform for Gannett Economies Group company to manage specialized daily newspapers focusing on legal, administrative, and public advertising.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+    {
+    
+      name: "html",
+      color: "green-text-gradient",
+    },
+    {
+      name: "css",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "javascript",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "laravel",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "php",
+      color: "blue-text-gradient",
+    },
+   
+    {
+      name: "Boostrap",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "mysql",
+      color: "blue-text-gradient",
+    },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gannett,
+    source_code_link: "https://github.com/khawla12-op/Gannett-Economies-Group-app.git",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Blog App",
+    description:" A web application designed to allow users to create, read, update, and delete blog posts. It provides a platform for users to share their thoughts, ideas, and experiences with a wider audience",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name:"NodeJs",
+        color:"pink-text-gradient",
+      },
+      {
+        name:"Express",
+        color:"purple-text-gradient",
+      },
+      {
+        name:"MySQL",
+        color:"violet-text-gradient",
+      },
+      {
+        name:"Prisma",
+        color:"orange-text-gradient",
+      }
+      
+    ],
+    image: post,
+    source_code_link: "https://github.com/khawla12-op/projet-web.git",
+  },
+  {
+    name: "MedGPT",
+    description:
+      "MedGPt is, a cutting-edge use of AI and natural language processing (NLP) in the medical industry. By utilizing cutting-edge language modeling approaches to support healthcare professionals in their work, MedGPt seeks to improve healthcare in the new world health system.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "css",
+        color: "green-text-gradient"
+      },
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient"
+      },
+      {
+        name: "pandas",
+        color: "black-text-gradient"
+      },
+      {
+        name: "python",
+        color: "purple-text-gradient"
+      },
+      {
+        name: "Bootstrap",
+        color: "violet-text-gradient"
+      },
+      {
+        name: "Tensorflow",
+        color: "orange-text-gradient"
+      },
+      {
+        name: "keras",
+        color: "red-text-gradient"
+      },
+      {
+        name: "Ultralytics",
+        color: "teal-text-gradient"
+      },
+      {
+        name: "PyTorch",
+        color: "maroon-text-gradient"
+      }
+      
+      
+    ],
+    image: medgpt,
+    source_code_link: "https://github.com/khawla12-op/MedGPT.git",
+  },
+
+  {
+    name: "Heart Disease Prediction",
+    description:" A web-based automatic prediction system that can predict heart disease based on various health parameters. This involves solving a binary classification problem using supervised machine learning techniques.",
+    tags: [
+      {
+        name: "django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "K-Nearest Neighbors",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AdaBoost Classifier",
         color: "pink-text-gradient",
       },
+      {
+        name: "Random Forest Classifier",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Logistic Regression",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Decision Tree Classifier",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "SVM",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "XGBoost",
+        color: "orange-text-gradient",
+      },
+     
+      {
+        name: "Scikit-learn",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: heart,
+    source_code_link: "https://github.com/khawla12-op/HeartDiseasePrediction.git",
   },
+  {
+    name: "My Portfolio",
+    description:"My portfolio is my online showcase, where I display all my skills, projects, and experiences. It's like my digital resume, but much more interactive and visually appealing. When visitors land on my site, they can get a real sense of who I am and what I can do",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name:"Tailwind CSS",
+        color: "violet-text-gradient",
+
+      },
+    {
+      name:"Three JS",
+      color:"yellow-text-gradient",
+    }
+   
+
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/khawla12-op/MyPortfolio.git",
+  },
+  // {
+  //   name: "Weather Application",
+  //   description:"A weather application is a digital tool that provides real-time information about current weather conditions, forecasts, and other meteorological data for specific locations. It allows users to access weather updates quickly and conveniently, helping them plan their activities and make informed decisions based on the weather forecast.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name:"CSS",
+  //       color: "violet-text-gradient",
+
+  //     },
+  //   {
+  //     name:"Javascript",
+  //     color:"yellow-text-gradient",
+  //   },
+  //   {
+  //     name:"EJS",
+  //     color:"green-text-gradient",
+  //   }
+   
+
+  //   ],
+  //   image: weather,
+  //   source_code_link: "https://github.com/khawla12-op/Weather-app.git",
+  // },
+  {
+    name: "Hospital Management System",
+    description:"A hospital management system is a comprehensive software solution designed to streamline and optimize various administrative and operational tasks within a healthcare facility. It serves as a centralized platform to efficiently manage patient records, medical staff, inventory, billing, scheduling, and other essential functions.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name:"Javafx",
+        color: "blue-text-gradient",
+      },
+      {
+        name:"Scene builder",
+        color: "violet-text-gradient",
+
+      },
+
+    ],
+    image: dashboard,
+    source_code_link: "https://github.com/khawla12-op/HospitalManagementSystem.git",
+  },
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

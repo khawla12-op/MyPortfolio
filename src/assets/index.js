@@ -16,19 +16,37 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import hadoop from "./tech/hadoop.png";
+import spark from "./tech/spark.png";
+import flutter from "./tech/flutter.png";
+import Angular from "./tech/angular.png";
+import hbase from "./tech/hbase.jpeg";
+import cassandra from "./tech/cassandra.svg";
+import android from "./tech/android.png";
+import bootstrap from "./tech/bootstrap.jpeg";
+import linux from "./tech/linux.png";
+import redis from "./tech/redis.png";
+import kubernetes from "./tech/kubernetes.png";
+import neo4j from "./tech/neo4j.png";
+import scikit_learn from "./tech/scikit_learn.png";
+import tensorflow from "./tech/tensorflow.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import gdscIcon from "./company/gdscIcon.png";
+import Ninwid from "./company/Ninwid.jpg";
+import codsoft from "./company/codsoft.jpeg";
+
+
+import gannett from "./gannett.png";
+import medgpt from "./medgpt.png";
+import heart from "./heart.png";
+import post from "./post.png";
+import portfolio from "./portfolio.png";
+import weather from "./weather.webp";
+import dashboard from "./dashboard.png";
 
 export {
   logo,
@@ -48,15 +66,32 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  Ninwid,
+  gdscIcon,
+  codsoft,
+  gannett,
+  medgpt,
+  heart,
+  hadoop,
+  spark,
+  flutter,
+  Angular,
+  hbase,
+  cassandra,
+  android,
+  bootstrap,
+  linux,
+  redis,
+  kubernetes,
+  neo4j,
+  scikit_learn,
+  tensorflow,
+  post,
+  portfolio,
+  weather,
+  dashboard,
+
 };
