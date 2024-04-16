@@ -251,37 +251,6 @@ const experiences = [
 ];
 
 
-
-
-
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
     name: "Gannett Economies Group application",
@@ -484,33 +453,7 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/khawla12-op/MyPortfolio.git",
   },
-  // {
-  //   name: "Weather Application",
-  //   description:"A weather application is a digital tool that provides real-time information about current weather conditions, forecasts, and other meteorological data for specific locations. It allows users to access weather updates quickly and conveniently, helping them plan their activities and make informed decisions based on the weather forecast.",
-  //   tags: [
-  //     {
-  //       name: "HTML",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name:"CSS",
-  //       color: "violet-text-gradient",
-
-  //     },
-  //   {
-  //     name:"Javascript",
-  //     color:"yellow-text-gradient",
-  //   },
-  //   {
-  //     name:"EJS",
-  //     color:"green-text-gradient",
-  //   }
-   
-
-  //   ],
-  //   image: weather,
-  //   source_code_link: "https://github.com/khawla12-op/Weather-app.git",
-  // },
+ 
   {
     name: "Hospital Management System",
     description:"A hospital management system is a comprehensive software solution designed to streamline and optimize various administrative and operational tasks within a healthcare facility. It serves as a centralized platform to efficiently manage patient records, medical staff, inventory, billing, scheduling, and other essential functions.",
@@ -536,5 +479,26 @@ const projects = [
 
 
 ];
+const certifications = [
+  {
+    name: "React Certification",
+    description: "Certification for proficiency in React.js, awarded by Codecademy.",
+    image: "https://via.placeholder.com/150", // replace with a real image URL
+    certification_link: "https://www.codecademy.com/",
+  },
+  {
+    name: "JavaScript Certification",
+    description: "Certification for proficiency in JavaScript, awarded by FreeCodeCamp.",
+    image: "https://via.placeholder.com/150", // replace with a real image URL
+    certification_link: "https://www.freecodecamp.org/",
+  },
+  {
+    name: "Python Certification",
+    description: "Certification for proficiency in Python, awarded by Coursera.",
+    image: "https://via.placeholder.com/150", // replace with a real image URL
+    certification_link: "https://www.coursera.org/",
+  },
+];
 
-export { services, technologies, experiences, testimonials, projects };
+
+export { services, technologies, experiences, projects,certifications };
