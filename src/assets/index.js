@@ -47,6 +47,12 @@ import post from "./post.png";
 import portfolio from "./portfolio.png";
 import weather from "./weather.webp";
 import dashboard from "./dashboard.png";
+import cisco from "./cisco.png";
+import mongo from "./mongo.png";
+import certif from "./certif.png";
+import Data from "./Data.png";
+import Foundations from "./Foundations.png";
+import Solution from "./Solution.png";
 
 export {
   logo,
@@ -63,6 +69,7 @@ export {
   git,
   html,
   javascript,
+  mongo,
   mongodb,
   nodejs,
   reactjs,
@@ -93,5 +100,9 @@ export {
   portfolio,
   weather,
   dashboard,
-
+  cisco,
+  certif,
+  Data,
+  Foundations,
+  Solution,
 };

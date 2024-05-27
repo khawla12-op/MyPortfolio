@@ -50,7 +50,7 @@ const Hero = () => {
            
             </div>
             <div className="mt-3" style={{padding:'7px'}}>
-          <Button variant='primary' href='/path-to-your-cv.pdf' download style={{ borderRadius: '100px' ,border: '2px solid white' ,padding:'7px' }}>
+          <Button variant='primary' href='/cv.pdf ' download style={{ borderRadius: '100px' ,border: '2px solid white' ,padding:'7px' }}>
     Download CV
   </Button>
   </div>

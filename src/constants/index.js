@@ -10,8 +10,9 @@ import {
   reactjs,
   tailwind,
   nodejs,
-  mongodb,
+  mongo,
   git,
+  mongodb,
   post,
   figma,
   docker,
@@ -38,7 +39,10 @@ import {
   tensorflow,
   dashboard,
   codsoft,
-
+  cisco,
+  Data,
+  Foundations,
+  Solution,
 
 } from "../assets";
 
@@ -80,24 +84,8 @@ const services = [
     icon: creator,
   },
 ];
-
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -115,14 +103,8 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
+
+
   {
     name: "figma",
     icon: figma,
@@ -147,6 +129,7 @@ const technologies = [
     name: "Angular",
     icon: Angular,
   },
+  
   {
     name: "HBase",
     icon: hbase,
@@ -159,26 +142,14 @@ const technologies = [
     name: "Android",
     icon: android,
   },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
-  {
-    name: "Linux",
-    icon: linux,
-  },
+
+
   {
     name: "Redis",
     icon: redis,
   },
-  {
-    name: "Kubernetes",
-    icon: kubernetes,
-  },
-  {
-    name: "Neo4j",
-    icon: neo4j,
-  },
+
+ 
   {
     name: "Scikit Learn",
     icon: scikit_learn,
@@ -192,6 +163,117 @@ const technologies = [
   
 
 ];
+//   {
+//     name: "HTML 5",
+//     icon: html,
+//   },
+//   {
+//     name: "CSS 3",
+//     icon: css,
+//   },
+//   {
+//     name: "JavaScript",
+//     icon: javascript,
+//   },
+//   {
+//     name: "TypeScript",
+//     icon: typescript,
+//   },
+//   {
+//     name: "React JS",
+//     icon: reactjs,
+//   },
+
+//   {
+//     name: "Tailwind CSS",
+//     icon: tailwind,
+//   },
+//   {
+//     name: "Node JS",
+//     icon: nodejs,
+//   },
+//   {
+//     name: "MongoDB",
+//     icon: mongodb,
+//   },
+//   {
+//     name: "Three JS",
+//     icon: threejs,
+//   },
+//   {
+//     name: "git",
+//     icon: git,
+//   },
+//   {
+//     name: "figma",
+//     icon: figma,
+//   },
+//   {
+//     name: "docker",
+//     icon: docker,
+//   },
+//   {
+//     name: "Hadoop",
+//     icon: hadoop,
+//   },
+//   {
+//     name: "Spark",
+//     icon: spark,
+//   },
+//   {
+//     name: "Flutter",
+//     icon: flutter,
+//   },
+//   {
+//     name: "Angular",
+//     icon: Angular,
+//   },
+  
+//   {
+//     name: "HBase",
+//     icon: hbase,
+//   },
+//   {
+//     name: "Cassandra",
+//     icon: cassandra,
+//   },
+//   {
+//     name: "Android",
+//     icon: android,
+//   },
+//   {
+//     name: "Bootstrap",
+//     icon: bootstrap,
+//   },
+//   {
+//     name: "Linux",
+//     icon: linux,
+//   },
+//   {
+//     name: "Redis",
+//     icon: redis,
+//   },
+//   {
+//     name: "Kubernetes",
+//     icon: kubernetes,
+//   },
+//   {
+//     name: "Neo4j",
+//     icon: neo4j,
+//   },
+//   {
+//     name: "Scikit Learn",
+//     icon: scikit_learn,
+//   },
+//   {
+//     name: "Tensorflow",
+//     icon: tensorflow,
+//   },
+  
+ 
+  
+
+// ];
 const experiences = [
   {
     title: "GDSC Core team member",
@@ -481,23 +563,39 @@ const projects = [
 ];
 const certifications = [
   {
-    name: "React Certification",
-    description: "Certification for proficiency in React.js, awarded by Codecademy.",
-    image: "https://via.placeholder.com/150", // replace with a real image URL
-    certification_link: "https://www.codecademy.com/",
-  },
+    name: "English for IT 1",
+    description:
+    "This certification demonstrates my ability to use complex grammatical concepts accurately, my familiarity with concepts related to information security and job roles, and my capability to understand phrases related to customer support. I'm also proficient in using vocabulary related to user experience, fraudulent calls, as well as network and software engineering.",
+    image: cisco, // replace with a real image URL
+    certification_link: "https://www.credly.com/badges/ace5a40b-e17b-4711-9258-e024650169c1/print",
+},
+
+
   {
-    name: "JavaScript Certification",
-    description: "Certification for proficiency in JavaScript, awarded by FreeCodeCamp.",
-    image: "https://via.placeholder.com/150", // replace with a real image URL
+    name: "Introduction to MongoDB",
+    description: "The Introduction to MongoDB certification offers a comprehensive overview of MongoDB, covering essential concepts like data modeling, querying, and performance tuning. Participants learn to effectively utilize MongoDB for building modern, scalable applications through hands-on exercises and best practice guidelines.",
+    image: mongo, 
     certification_link: "https://www.freecodecamp.org/",
   },
   {
-    name: "Python Certification",
-    description: "Certification for proficiency in Python, awarded by Coursera.",
-    image: "https://via.placeholder.com/150", // replace with a real image URL
-    certification_link: "https://www.coursera.org/",
+    name:"Modernizing Data Lakes and Data Warehouses with Google Cloud",
+    description: "Certification awarded by Coursera differentiates between data lakes and data warehouses, exploring use cases for each type of storage. It delves into the available data lake solutions on Google Cloud, providing insights into how they cater to various business needs.",
+    image:Data,
+    certification_link:"https://www.coursera.org/account/accomplishments/verify/WTRCSP6WG5PP"
   },
+  {
+    name:"Foundations: Data, Data, Everywhere",
+    description: "The certificate demonstrates proficiency in data analytics, encompassing key concepts, analytical thinking, and practical tools like spreadsheets and data visualization. It validates the ability to fulfill the role of a data analyst by effectively managing and analyzing data to support informed decision-making in various organizational contexts.",
+    image:Foundations,
+    certification_link:"https://www.coursera.org/account/accomplishments/verify/QBU3XBNGJ3FU"
+  },
+  {
+    name:"Solution challenge Hackathon",
+    description:"This certification is a prove for developping a rel--world problem relationg to the Google Developer Student Club Soltion challenge using google technologies",
+    image:Solution,
+    certification_link:""
+  },
+
 ];
 
 

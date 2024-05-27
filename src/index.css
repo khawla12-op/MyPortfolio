@@ -17,7 +17,32 @@
   animation:floatImage 4s ease-in-out infinite;
 
 }
+/*Working on Blog part */
+.app {
+  text-align: center;
+}
 
+.blog-posts-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-post {
+  width: 30%; /* Adjust the width as needed */
+  margin: 0 10px; /* Adjust the spacing between posts */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Add responsive design as needed */
+
+/*Finishing working on the blog part */
 
 
 @keyframes floatImage{
