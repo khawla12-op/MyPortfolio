@@ -5,6 +5,7 @@ import { ComputersCanvas } from "./canvas";
 import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { Button,Image } from "react-bootstrap";
 import MyImage from '../assets/MyImage.png';
+import MyCV from '../assets/KhaoulaALLAKCurriculum.pdf'
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
@@ -24,7 +25,7 @@ const Hero = () => {
           </h1>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Big Data and Cloud Computing Engineering Student{" "}
+            I'm a Machine Learning | Big Data and Cloud Computing Engineering{" "}
             <br className="sm:block hidden" />
           </p>
           {/* testing */}
@@ -50,7 +51,7 @@ const Hero = () => {
            
             </div>
             <div className="mt-3" style={{padding:'7px'}}>
-          <Button variant='primary' href='/cv.pdf ' download style={{ borderRadius: '100px' ,border: '2px solid white' ,padding:'7px' }}>
+          <Button variant='primary' href={MyCV} download style={{ borderRadius: '100px' ,border: '2px solid white' ,padding:'7px' }}>
     Download CV
   </Button>
   </div>

@@ -38,7 +38,7 @@ import tensorflow from "./tech/tensorflow.png";
 import gdscIcon from "./company/gdscIcon.png";
 import Ninwid from "./company/Ninwid.jpg";
 import codsoft from "./company/codsoft.jpeg";
-
+import um6pLogo from "./company/um6pLogo.png";
 
 import gannett from "./gannett.png";
 import medgpt from "./medgpt.png";
@@ -53,7 +53,11 @@ import certif from "./certif.png";
 import Data from "./Data.png";
 import Foundations from "./Foundations.png";
 import Solution from "./Solution.png";
-
+import Metaversehack from "./Metaversehack.jpeg";
+import Maghreb4SDGs from "./Maghreb4SDGs.jpeg";
+import EmsiHackathon from "./EmsiHackathon.jpeg";
+import Speakathon from "./Speakathon.jpeg";
+import FootInsights from "./FootInsights.png";
 export {
   logo,
   backend,
@@ -105,4 +109,10 @@ export {
   Data,
   Foundations,
   Solution,
+  um6pLogo,
+  Metaversehack,
+  Maghreb4SDGs,
+  EmsiHackathon,
+  Speakathon,
+  FootInsights,
 };

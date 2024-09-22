@@ -1,12 +1,12 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { certif} from "../assets";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { certifications } from "../constants"; // You need to define this
+import {certifications} from "../constants"
 import { fadeIn, textVariant } from "../utils/motion";
 
 const CertificationCard = ({
@@ -63,14 +63,17 @@ const Certifications = () => {
         <h2 className={`${styles.sectionHeadText}`}>Certifications.</h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-wrap gap-7 flex-wrap justify-around'
-      style={{minWidth:'1100px'}}>
+   
+        <div className='mt-20 flex flex-wrap gap-7 flex-wrap justify-around'>
+
         {certifications.map((certification, index) => (
           <CertificationCard key={`certification-${index}`} index={index} {...certification} />
         ))}
       </div>
+     
     </>
   );
 };
+
 
 export default SectionWrapper(Certifications, "");

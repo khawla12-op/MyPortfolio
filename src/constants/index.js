@@ -43,6 +43,12 @@ import {
   Data,
   Foundations,
   Solution,
+  um6pLogo,
+  Metaversehack,
+  Maghreb4SDGs,
+  EmsiHackathon,
+  Speakathon,
+  FootInsights,
 
 } from "../assets";
 
@@ -52,7 +58,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "projects",
     title: "Projects",
   },
   {
@@ -95,10 +101,7 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+
   {
     name: "MongoDB",
     icon: mongodb,
@@ -138,12 +141,7 @@ const technologies = [
     name: "Cassandra",
     icon: cassandra,
   },
-  {
-    name: "Android",
-    icon: android,
-  },
-
-
+ 
   {
     name: "Redis",
     icon: redis,
@@ -158,60 +156,13 @@ const technologies = [
     name: "Tensorflow",
     icon: tensorflow,
   },
-  
+
  
   
 
 ];
-//   {
-//     name: "HTML 5",
-//     icon: html,
-//   },
-//   {
-//     name: "CSS 3",
-//     icon: css,
-//   },
-//   {
-//     name: "JavaScript",
-//     icon: javascript,
-//   },
-//   {
-//     name: "TypeScript",
-//     icon: typescript,
-//   },
-//   {
-//     name: "React JS",
-//     icon: reactjs,
-//   },
 
-//   {
-//     name: "Tailwind CSS",
-//     icon: tailwind,
-//   },
-//   {
-//     name: "Node JS",
-//     icon: nodejs,
-//   },
-//   {
-//     name: "MongoDB",
-//     icon: mongodb,
-//   },
-//   {
-//     name: "Three JS",
-//     icon: threejs,
-//   },
-//   {
-//     name: "git",
-//     icon: git,
-//   },
-//   {
-//     name: "figma",
-//     icon: figma,
-//   },
-//   {
-//     name: "docker",
-//     icon: docker,
-//   },
+
 //   {
 //     name: "Hadoop",
 //     icon: hadoop,
@@ -233,10 +184,7 @@ const technologies = [
 //     name: "HBase",
 //     icon: hbase,
 //   },
-//   {
-//     name: "Cassandra",
-//     icon: cassandra,
-//   },
+
 //   {
 //     name: "Android",
 //     icon: android,
@@ -329,6 +277,16 @@ const experiences = [
 
       "Throughout the internship, my primary focus was on acquiring new skills and gaining practical knowledge in the field of Machine Learning. I was entrusted with various tasks and projects, each designed to challenge me and enhance my understanding of ML concepts and techniques."
     ],
+  },
+  {
+    title: "AI and Machine Learning Intern",
+    company_name: "Modeling Simulation and Data Analyis Department - UM6P",
+    icon: um6pLogo,
+    iconBg: "#383E56",
+    date: "July 2024 - September 2024",
+    points: [
+     "I worked on a web application designed to assist football coaches in making real-time decisions by analyzing biometric data from players. The platform leverages machine learning algorithms to monitor player performance and health, providing actionable insights during a match. Coaches receive recommendations on player fatigue, dehydration, injury risks, and the need for breaks, helping them optimize strategies and prevent health issues. The system integrates real-time sensor data, enabling proactive intervention to enhance team performance and player well-being."
+    ]
   },
 ];
 
@@ -492,17 +450,10 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Decision Tree Classifier",
+        name: "Other ML algorithms",
         color: "purple-text-gradient",
       },
-      {
-        name: "SVM",
-        color: "violet-text-gradient",
-      },
-      {
-        name: "XGBoost",
-        color: "orange-text-gradient",
-      },
+  
      
       {
         name: "Scikit-learn",
@@ -537,26 +488,26 @@ const projects = [
   },
  
   {
-    name: "Hospital Management System",
-    description:"A hospital management system is a comprehensive software solution designed to streamline and optimize various administrative and operational tasks within a healthcare facility. It serves as a centralized platform to efficiently manage patient records, medical staff, inventory, billing, scheduling, and other essential functions.",
+    name: "Football Analytics",
+    description:"The aim of this project is to create a web-based application that automates the analysis of football games using deep learning and computer vision techniques. The application provides meaningful insights that can help in decision-making processes.",
     tags: [
       {
-        name: "Java",
+        name: "Computer Vision",
         color: "blue-text-gradient",
       },
       {
-        name:"Javafx",
+        name:"Machine learning algorithms",
         color: "blue-text-gradient",
       },
       {
-        name:"Scene builder",
+        name:"Homography matrix",
         color: "violet-text-gradient",
 
       },
 
     ],
-    image: dashboard,
-    source_code_link: "https://github.com/khawla12-op/HospitalManagementSystem.git",
+    image: FootInsights,
+    source_code_link: "https://github.com/khawla12-op/Footbal_Analytics_with_DL_CV",
   },
 
 
@@ -585,7 +536,7 @@ const certifications = [
   },
   {
     name:"Foundations: Data, Data, Everywhere",
-    description: "The certificate demonstrates proficiency in data analytics, encompassing key concepts, analytical thinking, and practical tools like spreadsheets and data visualization. It validates the ability to fulfill the role of a data analyst by effectively managing and analyzing data to support informed decision-making in various organizational contexts.",
+    description: "The certificate validates the ability to fulfill the role of a data analyst by effectively managing and analyzing data to support informed decision-making .",
     image:Foundations,
     certification_link:"https://www.coursera.org/account/accomplishments/verify/QBU3XBNGJ3FU"
   },
@@ -595,6 +546,36 @@ const certifications = [
     image:Solution,
     certification_link:""
   },
+  {
+    name:"Speakathon",
+    description:"This certificate is to certify that I qualified as a semi-finalist in Speakathon 2024, organized by the English Speakers Community at ENSET Mohammedia",
+    image:Speakathon,
+    certification_link:""
+  },
+  // {
+  //   name:"HealthTech Metaverse Hackathon",
+  //   description:"2nd Place at Hackathon HealthTech: I was part of the team that secured second place at the Ibnou Zohr University's Hackathon HealthTech. Our project centered around leveraging [specific technologies, e.g., VR, AI] within the Metaverse to [outline the project's benefits, e.g., improve patient care, enhance medical training]. This experience allowed me to enhance my skills in [list of skills, e.g., programming, UX/UI design, teamwork] and gain valuable insights into the future of connected healthcare.",
+  //   image:Metaversehack,
+  //   certification_link:""
+  // },
+  // {
+  //   name:"",
+  //   description:"",
+  //   image:,
+  //   certification_link:""
+  // },
+  // {
+  //   name:"",
+  //   description:"",
+  //   image:,
+  //   certification_link:""
+  // },
+  // {
+  //   name:"",
+  //   description:"",
+  //   image:,
+  //   certification_link:""
+  // }
 
 ];
 
