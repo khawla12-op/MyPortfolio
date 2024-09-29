@@ -20,9 +20,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-As a driven and highly motivated engineering student, I possess a deep-seated passion for tackling complex challenges. My skill set is underpinned by robust analytical capabilities and an unwavering attention to detail.
-In addition to my academic pursuits, I hold the position of a lead within the GDSC, an organization dedicated to empowering fellow students by furnishing them with essential resources and unwavering support in their journey toward mastery in technology and software development.
-      </motion.p>
+Passionate about machine learning, generative AI, NLP and LLMs, with practical experience
+in developing AI-driven solutions. Proficient in data analysis, model training,customized
+conversational chatbots and data-driven problem-solving. Eager to apply knowledge in
+real-world settings and gain industry experience. Looking for internship opportunities to
+further enhance my skills.      </motion.p>
 
   
     </>

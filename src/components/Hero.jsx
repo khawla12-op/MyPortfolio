@@ -25,7 +25,7 @@ const Hero = () => {
           </h1>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Machine Learning | Big Data and Cloud Computing Engineering{" "}
+            I'm a Data Scientist | Big Data and Cloud Computing Engineering{" "}
             <br className="sm:block hidden" />
           </p>
           {/* testing */}

@@ -33,6 +33,7 @@ import kubernetes from "./tech/kubernetes.png";
 import neo4j from "./tech/neo4j.png";
 import scikit_learn from "./tech/scikit_learn.png";
 import tensorflow from "./tech/tensorflow.png";
+import langchain from "./tech/langchain.jfif";
 
 
 import gdscIcon from "./company/gdscIcon.png";
@@ -115,4 +116,5 @@ export {
   EmsiHackathon,
   Speakathon,
   FootInsights,
+  langchain,
 };
