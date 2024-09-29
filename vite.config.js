@@ -14,6 +14,6 @@ export default defineConfig({
         }
       }
     },
-    // chunkSizeWarningLimit: 1000 // Increase the limit to 1000 kB
+    chunkSizeWarningLimit: 1000 // Increase the limit to 1000 kB
   }
 });
