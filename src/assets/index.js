@@ -51,7 +51,8 @@ import dashboard from "./dashboard.png";
 import cisco from "./cisco.png";
 import mongo from "./mongo.png";
 import certif from "./certif.png";
-import Data from "./Data.png";
+// import Data from "./Data.png";
+import Oracle from "./Oracle.png"
 import Foundations from "./Foundations.png";
 import Solution from "./Solution.png";
 import Metaversehack from "./Metaversehack.jpeg";
@@ -107,7 +108,8 @@ export {
   dashboard,
   cisco,
   certif,
-  Data,
+  // Data,
+  Oracle,
   Foundations,
   Solution,
   um6pLogo,

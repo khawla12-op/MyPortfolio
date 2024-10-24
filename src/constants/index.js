@@ -50,6 +50,7 @@ import {
   Speakathon,
   FootInsights,
   langchain,
+  Oracle
 
 } from "../assets";
 
@@ -481,6 +482,12 @@ const projects = [
 ];
 const certifications = [
   {
+    name:"Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+    description:"This Certification validates my expertise in building and deploying advanced AI-driven solutions using Oracle Cloud Infrastructure and Generative AI Service. ",
+    image: Oracle,
+    certification_link:"https://www.linkedin.com/in/khaoula-allak/details/certifications/"
+  },
+  {
     name:"Modernizing Data Lakes and Data Warehouses with Google Cloud",
     description: "Certification awarded by Coursera differentiates between data lakes and data warehouses, exploring use cases for each type of storage. It delves into the available data lake solutions on Google Cloud, providing insights into how they cater to various business needs.",
     image:Data,
@@ -516,12 +523,12 @@ const certifications = [
     image:Solution,
     certification_link:""
   },
-  {
-    name:"Speakathon",
-    description:"This certificate is to certify that I qualified as a semi-finalist in Speakathon 2024, organized by the English Speakers Community at ENSET Mohammedia",
-    image:Speakathon,
-    certification_link:""
-  },
+  // {
+  //   name:"Speakathon",
+  //   description:"This certificate is to certify that I qualified as a semi-finalist in Speakathon 2024, organized by the English Speakers Community at ENSET Mohammedia",
+  //   image:Speakathon,
+  //   certification_link:""
+  // },
   // {
   //   name:"HealthTech Metaverse Hackathon",
   //   description:"2nd Place at Hackathon HealthTech: I was part of the team that secured second place at the Ibnou Zohr University's Hackathon HealthTech. Our project centered around leveraging [specific technologies, e.g., VR, AI] within the Metaverse to [outline the project's benefits, e.g., improve patient care, enhance medical training]. This experience allowed me to enhance my skills in [list of skills, e.g., programming, UX/UI design, teamwork] and gain valuable insights into the future of connected healthcare.",
