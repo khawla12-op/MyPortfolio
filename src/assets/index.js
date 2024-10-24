@@ -108,7 +108,7 @@ export {
   dashboard,
   cisco,
   certif,
-  // Data,
+  Data,
   Oracle,
   Foundations,
   Solution,
